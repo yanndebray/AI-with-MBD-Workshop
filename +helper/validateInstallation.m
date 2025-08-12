@@ -3,7 +3,7 @@ function [ installationIsValid, failureMessage ] =  validateInstallation( )
 installationIsValid = true;
 failureMessage = "";
 
-%% Version:
+% Version:
 [ versionValidity, versionFailureMessage ] = confirmMatlabVersion( );
 
 if( true == versionValidity )
@@ -67,12 +67,12 @@ end
 
 function [ versionValidity, versionFailureMessage ] = confirmMatlabVersion( )
 release = matlabRelease();
-if( "R2024b" == release.Release )
+if( "R2025a" == release.Release )
     versionValidity = true;
     versionFailureMessage = "";
 else
     versionValidity = false;
-    versionFailureMessage = "Version R2024b is required.";
+    versionFailureMessage = "Version R2025a is required.";
 end
 return
 end
@@ -125,7 +125,7 @@ requiredProductNamesList = ...
     % "Deep Learning Toolbox Verification Library"; ...
     "MATLAB Coder Interface for Deep Learning Libraries"; ...
     "Deep Learning Toolbox Converter for TensorFlow models"; ...
-    "Deep Learning Toolbox Model Quantization Library"; ...
+    "Deep Learning Toolbox Model Compression Library"; ...
     ];
 
 return;
