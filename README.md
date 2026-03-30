@@ -37,4 +37,4 @@ Embark on your AI development journey with MATLAB and Simulink today! Register f
 3rd Party Products:
 * [PyTorch&trade;](https://pytorch.org/)
 
-Copyright 2024 The MathWorks, Inc.
+Copyright 2026 The MathWorks, Inc.
