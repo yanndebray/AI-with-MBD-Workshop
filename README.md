@@ -30,9 +30,9 @@ Embark on your AI development journey with MATLAB and Simulink today! Register f
 * [MATLAB Coder&trade;](https://www.mathworks.com/products/matlab-coder.html)
 * [Simulink Coder&trade;](https://www.mathworks.com/products/simulink-coder.html)
 * [Statistics and Machine Learning Toolbox&trade;](https://www.mathworks.com/products/statistics.html)
-* [MATLAB Coder Interface for Deep Learning](https://www.mathworks.com/matlabcentral/fileexchange/74606)
-* [Deep Learning Toolbox Converter for PyTorch Model Format](https://www.mathworks.com/matlabcentral/fileexchange/108917)
-* [Deep Learning Toolbox Model Compression Library](https://www.mathworks.com/matlabcentral/fileexchange/112498)
+* [MATLAB Coder Interface for Deep Learning](https://www.mathworks.com/matlabcentral/fileexchange/68612)
+* [Deep Learning Toolbox Converter for PyTorch Model Format](https://www.mathworks.com/matlabcentral/fileexchange/111925)
+* [Deep Learning Toolbox Model Compression Library](https://www.mathworks.com/matlabcentral/fileexchange/74614)
 
 3rd Party Products:
 * [PyTorch&trade;](https://pytorch.org/)
