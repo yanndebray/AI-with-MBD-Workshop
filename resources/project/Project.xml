@@ -32,11 +32,14 @@
                 <Extension Name="StartUpPrev" Value="HEAD"/>
             </Info>
         </EntryPoint>
-        <EntryPoint Location="969e7e7f-f928-4551-85b2-b59e89addd3f">
-            <Info File="Part_3_Code_Gen/Exercise_3.mlx" GroupUUID="" Icon="" Name="Exercise_3" Type="Basic" Visible="1"/>
-        </EntryPoint>
         <EntryPoint Location="e63477c7-a8a2-4312-9851-6a2b9510b086">
             <Info File="Part_1_AI_modeling/Exercise_1.m" GroupUUID="" Icon="" Name="Exercise_1" Type="Basic" Visible="1"/>
+        </EntryPoint>
+        <EntryPoint Location="6a865ebf-e2c3-47b3-aaa4-22756b17b4f2">
+            <Info File="Part_2_AI_import/Exercise_2.m" GroupUUID="default" Icon="" Name="Exercise_2" Type="Basic" Visible="1"/>
+        </EntryPoint>
+        <EntryPoint Location="2b08126e-d2b2-4292-be11-0c07d02993c6">
+            <Info File="Part_3_Code_Gen/Exercise_3.m" GroupUUID="default" Icon="" Name="Exercise_3" Type="Basic" Visible="1"/>
         </EntryPoint>
     </EntryPoints>
     <Files Location="ALM">
@@ -323,6 +326,45 @@
                     </Info>
                 </File>
             </File>
+            <File Location="Exercise_1_media">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="image_0.png">
+                    <Info/>
+                </File>
+                <File Location="image_1.png">
+                    <Info/>
+                </File>
+                <File Location="image_10.png">
+                    <Info/>
+                </File>
+                <File Location="image_2.png">
+                    <Info/>
+                </File>
+                <File Location="image_3.png">
+                    <Info/>
+                </File>
+                <File Location="image_4.png">
+                    <Info/>
+                </File>
+                <File Location="image_5.png">
+                    <Info/>
+                </File>
+                <File Location="image_6.png">
+                    <Info/>
+                </File>
+                <File Location="image_7.png">
+                    <Info/>
+                </File>
+                <File Location="image_8.jpeg">
+                    <Info/>
+                </File>
+                <File Location="image_9.png">
+                    <Info/>
+                </File>
+            </File>
         </File>
         <File Location="Part_2_AI_import">
             <Info/>
@@ -366,6 +408,13 @@
                     </Category>
                 </Info>
             </File>
+            <File Location="Exercise_2.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
         </File>
         <File Location="Part_3_Code_Gen">
             <Info/>
@@ -379,14 +428,14 @@
                     </Category>
                 </Info>
             </File>
-            <File Location="Exercise_3.mlx">
+            <File Location="SOC_model_Code_Gen.slx">
                 <Info>
                     <Category UUID="FileClassCategory">
                         <Label UUID="design"/>
                     </Category>
                 </Info>
             </File>
-            <File Location="SOC_model_Code_Gen.slx">
+            <File Location="Exercise_3.m">
                 <Info>
                     <Category UUID="FileClassCategory">
                         <Label UUID="design"/>

@@ -205,7 +205,7 @@ function [rmseValue,residuals] = rmse(y,t)
     rmseValue = sqrt(mean(residuals.^2));
 end
 %%
-%[text] *Copyright 2024 The MathWorks, Inc.*
+%[text] *Copyright 2026 The MathWorks, Inc.*
 
 %[appendix]{"version":"1.0"}
 %---
